@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(input)
+def valid_move?(array, input)
   if input.between?(0, 8) == true
     true
   else
