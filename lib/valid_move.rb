@@ -10,9 +10,9 @@ end
 def position_taken?(board, index)
   if valid_move?(index) == true
     if board[index] == "X" || board[index] == "O"
-      true
-    else
       false
+    else
+      true
     end
   else
     false
